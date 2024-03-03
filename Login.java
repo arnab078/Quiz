@@ -12,7 +12,7 @@ public class Login extends JFrame implements ActionListener{ //to active the cli
     Login(){
         getContentPane().setBackground(Color.WHITE);
         
-        ImageIcon i1 =new ImageIcon(ClassLoader.getSystemResource("icons/login.jpg"));
+        ImageIcon i1 =new ImageIcon(ClassLoader.getSystemResource("login.jpg"));
         //to add component or image on the frame
         setLayout(null);
         JLabel image=new JLabel(i1);
